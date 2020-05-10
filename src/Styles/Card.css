@@ -1,0 +1,118 @@
+
+.entireDisplay{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/bg-intro-desktop.png');
+    background-color: rgb(230, 148, 148);
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.entireDisplay .Description{
+    text-align: center;
+}
+
+.entireDisplay .Description h1, .entireDisplay .Description h5, .entireDisplay .FORM h5, .entireDisplay .FORM h6{
+    color: white;
+}
+
+.entireDisplay .Description h1{
+    margin-top: 75px;
+}
+
+.entireDisplay .FORM{
+    margin-bottom: 25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto ;
+    width:90%
+}
+
+.entireDisplay .FORM table{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.entireDisplay .FORM h5{
+    background-color: rgb(89, 89, 202);
+    padding: 10px;
+    justify-content: center;
+    border-radius: 5px;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.entireDisplay .FORM form{
+    background-color: honeydew;
+    padding: 15px 10px;
+    border-radius: 5px;
+    
+}
+
+.entireDisplay .FORM input{
+    margin-bottom: 3px;
+    width: 95%;
+    border-radius: 4px;
+}
+
+.entireDisplay .FORM button{
+    width: 95%;
+    padding: 4px ;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    margin-top: 1px;
+    border-radius: 5px;
+}
+
+.entireDisplay .FORM h6{
+    color: rgb(187, 180, 180);
+    font-size: xx-small;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 1px;
+}
+
+.entireDisplay .FORM .Red{
+    color: red;
+}
+
+
+@media (min-width:768px){
+    .entireDisplay{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+
+    .entireDisplay .Description{
+        width:30%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .entireDisplay .FORM{
+        margin-bottom: 25px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto ;
+        width:30%
+    }
+    .entireDisplay .FORM h5{
+        width: 95%;
+    }
+    .entireDisplay .FORM button{
+        width: 95%;
+    }
+
+    .entireDisplay .FORM input{
+        width: 95%;
+    }
+    
+    
+
+}
